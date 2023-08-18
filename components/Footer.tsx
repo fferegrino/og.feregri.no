@@ -4,7 +4,7 @@ export function Footer() {
       <ul className="flex gap-4 justify-center">
         <li>
           <a
-            href="https://twitter.com/anurag__roy"
+            href="https://twitter.com/feregri_no"
             target="_blank"
             className="text-gray-400 hover:text-gray-600"
             title="Contact me on Twitter"
@@ -19,7 +19,7 @@ export function Footer() {
         </li>
         <li>
           <a
-            href="https://github.com/anurag-roy/og.anuragroy.dev"
+            href="https://github.com/techlingo-fyi/og.techlingo.fyi"
             target="_blank"
             className="text-gray-400 hover:text-gray-600"
             title="View source on GitHub"

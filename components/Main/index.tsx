@@ -10,11 +10,12 @@ export function Main() {
   const [imageUrl, setImageUrl] = useState('');
 
   const defaultValues = {
-    theme: 'rose',
-    title: 'Dynamic OG Images with @vercel/og',
+    theme: 'slate',
+    title: 'Batteries included',
     description:
-      "Taking a look at Vercel's new library to generate dynamic OpenGraph images on the fly!",
+      "Is a phrase used to describe software or programming languages that come bundled with a wide variety of useful tools, libraries, and modules. Meaning that users do not need to install additional components to perform common tasks.",
     logo: '🐦',
+    path: 'batteries-included'
   };
 
   useEffect(() => {
@@ -53,13 +54,8 @@ export function Main() {
           placeHolder="Image description"
           isTextArea={true}
         />
-        <TextInput name="avatar" placeHolder="https://og.com/image.png" />
-        <TextInput name="author" placeHolder="Jane Smith" />
-        <TextInput
-          name="logo"
-          defaultValue={defaultValues.logo}
-          placeHolder="https://og.com/logo.svg"
-        />
+        <TextInput name="path" placeHolder="batteries-included"
+          defaultValue={defaultValues.path} />
         <button
           type="submit"
           className="mx-auto mt-4 lg:mt-6 inline-flex items-center px-4 py-2 text-base font-medium rounded-full text-white animated-button focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"

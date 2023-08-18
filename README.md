@@ -1,11 +1,11 @@
 
- > This is a fork of https://github.com/anurag-roy/og.anuragroy.dev
+ > This is a fork of https://github.com/anurag-roy/og.techlingo.fyi
 
 <div align="center">
 
 <img src="https://pub-cb12f9144e314eec94d19801ea4a36ee.r2.dev/og-logo.png" width="140" />
 
-# og.anuragroy.dev
+# og.techlingo.fyi
 
 OpenGraph Image Generator for [anuragroy.dev](https://anuragroy.dev) using `@vercel/og` and Vercel Edge functions.
 
@@ -38,7 +38,7 @@ Make sure you have the following installed before proceeding:
 #### 1. Clone this repo:
 
 ```sh
-git clone https://github.com/anurag-roy/og.anuragroy.dev.git
+git clone https://github.com/anurag-roy/og.techlingo.fyi.git
 ```
 
 #### 2. Install dependencies
