@@ -19,7 +19,7 @@ export function Footer() {
         </li>
         <li>
           <a
-            href="https://github.com/techlingo-fyi/og.techlingo.fyi"
+            href="https://github.com/techlingo-fyi/og.feregri.no"
             target="_blank"
             className="text-gray-400 hover:text-gray-600"
             title="View source on GitHub"

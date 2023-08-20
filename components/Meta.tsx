@@ -1,12 +1,12 @@
 import Head from 'next/head';
 
 export function Meta() {
-  const siteUrl = 'https://og.techlingo.fyi';
+  const siteUrl = 'https://og.feregri.no';
   const title =
-    'og.techlingo.fyi - OpenGraph Image Generator for anuragroy.dev';
+    'og.feregri.no - OpenGraph Image Generator for anuragroy.dev';
   const description =
     'Generate dynamic OpenGraph images on the edge using @vercel/og and Vercel Edge functions.';
-  const ogImageLink = 'https://og.techlingo.fyi/og.png';
+  const ogImageLink = 'https://og.feregri.no/og.png';
 
   return (
     <Head>

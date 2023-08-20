@@ -29,7 +29,7 @@ export function Header() {
         />
       </svg>
       <h1 className="font-bold font-mono text-2xl text-gray-900 lg:text-4xl">
-        og.techlingo.fyi
+        og.feregri.no
       </h1>
       <button
         onClick={() => setIsAboutOpen(!isAboutOpen)}
