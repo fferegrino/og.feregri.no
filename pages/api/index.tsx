@@ -78,7 +78,7 @@ export default async function handler(req: NextRequest) {
           {description}
         </p>
         <div tw="w-full flex flex-row items-center">
-          <span tw={`text-3xl text-${theme}-600 mr-auto`}>
+          <span tw={`text-4xl text-${theme}-700 mr-auto`}>
             <span style={{ fontFamily: 'UrbanistThin' }}>{cleanPath}</span>
           </span>
 
